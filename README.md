@@ -1,2 +1,5 @@
 # PRNG-Suite
-PRNG implementation and testing stop
+### PRNG testing and implementation stop
+---
+- Do not use for cryptographic purposes.
+- Docs to follow soon.
