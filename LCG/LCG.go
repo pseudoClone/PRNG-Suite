@@ -4,10 +4,12 @@ import (
 	"fmt"
 	"math"
 	"math/big"
+	"time"
 )
 
 func main() {
-	xn := new(big.Int).SetInt64(0) //Will set later
+	time := time.Now().UnixNano()
+	xn := big.NewInt(time)
 	m := new(big.Int).SetInt64((int64(math.Pow(2, 31) - 1))) // Ideally prime
 	a := big.NewInt(67280421310721) // Biggest prime by Thomas Clausen
 	c := 2531011 // Wiki Parameters
