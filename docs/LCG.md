@@ -2,7 +2,7 @@
 
 ### Equation
 ```math
-x_{n+1} \equiv (a x_n + c) \mod m
+x_{n+1} \equiv (a x_n + c) \!\!\!\! \mod m
 \\
 \text{Where x} _{n} \equiv \text{ seed} \text{, c } \equiv \text{constant, a} \equiv \text{multiplier, n} \equiv \text{iteration}
 ```
